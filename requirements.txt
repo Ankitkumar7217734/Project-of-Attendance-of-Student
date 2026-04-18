@@ -1,4 +1,7 @@
 #! pip install -r requirements.txt 
+
+#* to run the Streamlit app
+#! streamlit run app.py #! to run the Streamlit app
 numpy
 pandas
 scikit-learn #! face recognition
