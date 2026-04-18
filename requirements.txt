@@ -2,6 +2,10 @@
 
 #* to run the Streamlit app
 #! streamlit run app.py #! to run the Streamlit app
+#* stop the Streamlit app
+#! pkill -f streamlit
+
+
 numpy
 pandas
 scikit-learn #! face recognition
