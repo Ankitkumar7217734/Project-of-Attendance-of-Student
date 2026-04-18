@@ -1,0 +1,18 @@
+#! pip install -r requirements.txt 
+numpy
+pandas
+scikit-learn #! face recognition
+dlib-bin #! face recognition
+
+
+git+https://github.com/ageitgey/face_recognition_models
+setuptools 
+
+supabase #! Supabase client library for Python
+bcrypt #! password hashing
+
+segno #! QR code generation
+pillow  #! image processing
+
+
+streamlit #! web app framework
