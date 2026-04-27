@@ -1,0 +1,13 @@
+.eve
+.vscode
+
+*.pyc
+__pycache__/
+*.pyo
+/DS_Store
+
+venv/
+
+.streamlit/
+
+dist/
