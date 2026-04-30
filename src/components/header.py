@@ -10,3 +10,9 @@ def header_home():
 </div>
 <h1 style="font-family: 'Space Grotesk', sans-serif !important; font-size: 2.8rem !important; font-weight: 800 !important; color:#0f172a !important; margin: 0 0 0.5rem 0 !important; line-height: 1.2 !important; letter-spacing: -0.02em;">Attendance Management<br>System</h1>
 </div>""", unsafe_allow_html=True)
+
+
+def header_dashboard():
+    st.markdown("""<div style="text-align: center; padding: 4rem 1rem 1rem 1rem;">
+<h1 style="font-family: 'Space Grotesk', sans-serif !important; font-size: 2.8rem !important; font-weight: 800 !important; color:#0f172a !important; margin: 0 0 0.5rem 0 !important; line-height: 1.2 !important; letter-spacing: -0.02em;">Dashboard</h1>
+</div>""", unsafe_allow_html=True)

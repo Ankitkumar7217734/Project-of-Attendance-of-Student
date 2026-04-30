@@ -81,20 +81,22 @@ def style_background_dashboard():
     height: 0 !important;
 }
 .stApp {
-    background: linear-gradient(160deg, #0f172a 0%, #1e1b4b 40%, #0f172a 100%) !important;
+    background:
+        radial-gradient(circle at top left, rgba(59,130,246,0.14) 0, rgba(59,130,246,0) 32%),
+        linear-gradient(180deg, #f8fafc 0%, #edf2f7 100%) !important;
     min-height: 100vh;
 }
 .block-container {
     padding-top: 2rem !important;
-    max-width: 1000px !important;
+    max-width: 900px !important;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Space Grotesk', sans-serif !important;
-    color: #e2e8f0 !important;
+    color: #0f172a !important;
 }
 p, span, div, label, li {
     font-family: 'Inter', sans-serif !important;
-    color: #cbd5e1 !important;
+    color: #475569 !important;
 }
 h1 {
     font-size: 2.2rem !important;
@@ -102,19 +104,20 @@ h1 {
 }
 .stButton > button {
     font-family: 'Inter', sans-serif !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     font-size: 1rem !important;
     padding: 0.6rem 1.5rem !important;
     border-radius: 10px !important;
-    border: 1px solid rgba(255,255,255,0.1) !important;
-    background: rgba(255,255,255,0.06) !important;
-    color: #e0e0ff !important;
+    border: 1px solid rgba(71,85,105,0.18) !important;
+    background: #ffffff !important;
+    color: #1e293b !important;
     transition: all 0.25s ease !important;
 }
 .stButton > button:hover {
-    background: rgba(99,102,241,0.3) !important;
-    border-color: rgba(99,102,241,0.5) !important;
-    color: #fff !important;
+    background: #eff6ff !important;
+    border-color: rgba(37,99,235,0.34) !important;
+    color: #1d4ed8 !important;
+    box-shadow: 0 10px 28px rgba(37,99,235,0.14) !important;
 }
 </style>""", unsafe_allow_html=True)
 
